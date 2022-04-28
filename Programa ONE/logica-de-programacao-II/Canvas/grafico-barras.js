@@ -1,5 +1,5 @@
-const canvas = document.querySelector("canvas");
-let pincel = canvas.getContext("2d");
+const tela = document.querySelector("canvas");
+let pincel = tela.getContext("2d");
 
 let serie2015 = [50, 25, 20, 5]
 let serie2016 = [65, 20, 13, 2]

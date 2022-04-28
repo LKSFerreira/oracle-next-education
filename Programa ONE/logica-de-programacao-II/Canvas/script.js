@@ -1,5 +1,5 @@
-const canvas = document.querySelector("canvas");
-let pincel = canvas.getContext("2d")
+const tela = document.querySelector("canvas");
+let pincel = tela.getContext("2d")
 
 // Fundo cinza
 pincel.fillStyle = "lightgray"
