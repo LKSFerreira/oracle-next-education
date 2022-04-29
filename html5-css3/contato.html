@@ -13,7 +13,8 @@
 <body>
     <header>
         <div class="caixa">
-            <h1><img src="logo.png" alt=""></h1>
+            <h1><img src="logo.png"
+                    alt="logo da alura na cor preta da silhueta de um rosto masculino com óculos e barba"></h1>
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
@@ -27,40 +28,74 @@
     <main>
         <form>
             <label for="nomesobrenome">Nome e Sobrenome</label>
-            <input type="text" id="nomesobrenome" class="input-padrao">
+            <input type="text" id="nomesobrenome" class="input-padrao" required>
 
             <label for="email">Email</label>
-            <input type="text" id="email" class="input-padrao">
+            <input type="email" id="email" class="input-padrao" placeholder="seuemail@dominio.com" required>
 
             <label for="telefone">Telefone</label>
-            <input type="text" id="telefone" class="input-padrao">
+            <input type="tel" id="telefone" class="input-padrao" placeholder="(00) 91234-5678" required>
 
             <label for="mensagem">Mensagem</label>
-            <textarea name="" id="mensagem" cols="75" rows="10" class="input-padrao"></textarea>
+            <textarea name="" id="mensagem" cols="75" rows="10" class="input-padrao" required></textarea>
 
-            <div>
-                <p>Como prefere o nosso contato?</p>
-                <label for="radio-email"> <input type="radio" name="contato" value="email"
-                        id="radio-email">Email</label>
-
-
-                <label for="email"><input type="radio" name="contato" value="telefone"
-                        id="radio-telefone">Telefone</label>
+            <fieldset>
+                <legend>Como prefere o nosso contato?</p>
+                    <label for="radio-email"> <input type="radio" name="contato" value="email"
+                            id="radio-email">Email</label>
 
 
-                <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp"
-                        id="radio-whatsapp">WhatsApp</label>
+                    <label for="email"><input type="radio" name="contato" value="telefone"
+                            id="radio-telefone">Telefone</label>
 
-            </div>
 
-            <label> <input type="checkbox" class="checkbox"> Gostaria de receber nossas novidades por e-mail?</label>
+                    <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp"
+                            checked>WhatsApp</label>
+            </fieldset>
 
-            <input type="submit" name="contato" value="Enviar formulário">
+            <fieldset>
+                <legend>Qual horário prefere ser atendido?</p>
+                    <select name="" id="">
+                        <option value="">Manhã</option>
+                        <option value="">Tarde</option>
+                        <option value="">Noite</option>
+                    </select>
+            </fieldset>
+
+            <label> <input type="checkbox" class="checkbox" checked> Gostaria de receber nossas novidades por
+                e-mail?</label>
+
+            <input type="submit" name="contato" value="Enviar formulário" class="enviar">
         </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Dia</th>
+                    <th>Horário</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Segunda</td>
+                    <td>8h ~ 20h</td>
+                </tr>
+                <tr>
+                    <td>Quarta</td>
+                    <td>8h ~ 20h</td>
+                </tr>
+                <tr>
+                    <td>Sexta</td>
+                    <td>8h ~ 20h</td>
+                </tr>
+            </tbody>
+        </table>
+
     </main>
 
     <footer>
-        <img src="logo-branco.png" alt="">
+        <img src="logo-branco.png"
+            alt="logo da alura na cor branca da silhueta de um rosto masculino com óculos e barba">
         <p class="copyright">^&copy; Copyright Barbearia Alura - 2019</p>
     </footer>
 
