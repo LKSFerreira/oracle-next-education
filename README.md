@@ -4,7 +4,7 @@ Oracle Next Education é um programa de educação, empregabilidade e inclusão 
 <details>
     <summary>Programação</summary>
 
-[Alura Challenges - Oracle One Cursos Online](https://github.com/LKSFerreira/03_oracle-next-education/blob/main/certificados/iniciante_em_programação_f2t2_-_one.pdf)
+[Alura Challenges - Oracle One Cursos Online](https://github.com/LKSFerreira/03_oracle-next-education/blob/main/certificados/00_iniciante_em_programação_f2t2_-_one.pdf)
 
 </details>
 
